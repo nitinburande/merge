@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Browse - nb_test" ISN_2="1" LastIsn="1" id="5">
+        <Header Description="Browse - nb_test111" ISN_2="1" LastIsn="1" id="5">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736867" _time="49225" date="22/06/2018" time="13:40:25"/>
+          <LastModified _date="736867" _time="55557" date="22/06/2018" time="15:25:57"/>
         </Header>
         <ItemIsn val="3"/>
         <Resource>
@@ -211,7 +211,7 @@
               <Width id="23" val="134"/>
               <Height id="24" val="195"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="Browse - nb_test"/>
+              <FormName id="311" valUnicode="Browse - nb_test111"/>
             </PropertyList>
             <Control _test_id="1" id="1">
               <PropertyList model="CTRL_GUI0_TABLE">

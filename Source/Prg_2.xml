@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Init_update_java" ISN_2="1" LastIsn="1" id="2">
+        <Header Description="Init_update_java111" ISN_2="1" LastIsn="1" id="2">
           <Comment val="--Execute prg#2 : ctrl-1 (Java)&#xD;&#xA;**See verify is displayed as it shows value as 40.0"/>
           <Public val="P1"/>
           <ExecutionRight comp="-1"/>
@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736689" _time="55159" date="26/12/2017" time="15:19:19"/>
+          <LastModified _date="736870" _time="36932" date="25/06/2018" time="10:15:32"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -269,7 +269,7 @@
           <FormEntry _last_isn="3" _last_test_id="3" id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="Init_update_java"/>
+              <FormName id="311" valUnicode="Init_update_java111"/>
             </PropertyList>
             <Control _test_id="2" id="1">
               <PropertyList model="CTRL_GUI0_STATIC">

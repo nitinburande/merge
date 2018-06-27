@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="myclass" ISN_2="1" LastIsn="1" id="4">
+        <Header Description="myclass 11" ISN_2="1" LastIsn="1" id="4">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -26,10 +26,10 @@
           <External val="N"/>
           <Offline val="N"/>
           <FormType val="N"/>
-          <DotNetObjectExists val="N"/>
-          <LastModified _date="736865" _time="62440" date="20/06/2018" time="17:20:40"/>
+          <DotNetObjectExists val="Y"/>
+          <LastModified _date="736872" _time="44018" date="27/06/2018" time="12:13:38"/>
         </Header>
-        <ItemIsn val="1"/>
+        <ItemIsn val="5"/>
         <Resource>
           <Columns>
             <Column id="1" name="myclass">
@@ -39,6 +39,24 @@
                 <Definition id="175" val="1"/>
                 <_FieldStyle id="276" val="6"/>
                 <ObjectType id="478" val="myclass"/>
+              </PropertyList>
+            </Column>
+            <Column id="3" name="Int">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_BLOB" id="1"/>
+                <Size id="174" val="28"/>
+                <Definition id="175" val="1"/>
+                <_FieldStyle id="276" val="6"/>
+                <ObjectType id="478" val="java.lang.Integer"/>
+              </PropertyList>
+            </Column>
+            <Column id="4" name=".NetInt">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_BLOB" id="1"/>
+                <Size id="174" val="28"/>
+                <Definition id="175" val="1"/>
+                <_FieldStyle id="276" val="5"/>
+                <ObjectType id="478" val="System.Int16"/>
               </PropertyList>
             </Column>
           </Columns>
@@ -131,6 +149,30 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="3" FlowIsn="20" id="3">
+                  <ASS val="10"/>
+                  <Column val="3"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="5" FlowIsn="33" id="5">
+                  <ASS val="10"/>
+                  <Column val="4"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
           <LogicUnit id="3" propagate="78">
@@ -192,12 +234,92 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="5" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <KeyCombinationID val="63"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="8">
+                  <Expression val="4"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="5" FlowIsn="9" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
+                  <AppendToErrorLog val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
+              <LogicLine>
+                <Evaluate FlowIsn="10">
+                  <Expression val="6"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="7" FlowIsn="11" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
+                  <AppendToErrorLog val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="6" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <KeyCombinationID val="64"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="48">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="15" FlowIsn="49" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
+                  <AppendToErrorLog val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="myclass"/>
+              <FormName id="311" valUnicode="myclass 11"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
@@ -206,12 +328,40 @@
             <ExpSyntax val="Str({0,1}.add(1,2),'###')"/>
             <ExpAttribute val="A"/>
           </Expression>
+          <Expression id="15">
+            <ExpSyntax val="JavaException().toString()"/>
+            <ExpAttribute val="O"/>
+          </Expression>
           <Expression id="3">
             <ExpSyntax val="Java.myclass.StaticTest('aa')"/>
             <ExpAttribute val="O"/>
           </Expression>
           <Expression id="2">
             <ExpSyntax val="Java.myclass()"/>
+            <ExpAttribute val="O"/>
+          </Expression>
+          <Expression id="4">
+            <ExpSyntax val="JavaSet(Java.myclass.st,50)"/>
+            <ExpAttribute val="O"/>
+          </Expression>
+          <Expression id="5">
+            <ExpSyntax val="Str(Java.myclass.st,'######')"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="6">
+            <ExpSyntax val="JavaSet({0,1}.stringObj,'AAAAAA')"/>
+            <ExpAttribute val="O"/>
+          </Expression>
+          <Expression id="7">
+            <ExpSyntax val="{0,1}.stringObj"/>
+            <ExpAttribute val="O"/>
+          </Expression>
+          <Expression id="10">
+            <ExpSyntax val="5"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="14">
+            <ExpSyntax val="{0,1}.divide(1,0)"/>
             <ExpAttribute val="O"/>
           </Expression>
         </Expressions>

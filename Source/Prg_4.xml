@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736872" _time="52856" date="27/06/2018" time="14:40:56"/>
+          <LastModified _date="736872" _time="52935" date="27/06/2018" time="14:42:15"/>
         </Header>
         <ItemIsn val="5"/>
         <Resource>
@@ -321,7 +321,7 @@
                 </STP>
               </LogicLine>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="51" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="br1" TitleTxt="Warning" VR_DISP="B">
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="51" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="M2" TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>

@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="myclass 11" ISN_2="1" LastIsn="1" id="4">
+        <Header Description="myclass 1122" ISN_2="1" LastIsn="1" id="4">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736872" _time="50385" date="27/06/2018" time="13:59:45"/>
+          <LastModified _date="736872" _time="52856" date="27/06/2018" time="14:40:56"/>
         </Header>
         <ItemIsn val="5"/>
         <Resource>
@@ -320,6 +320,14 @@
                   <Direction val="C"/>
                 </STP>
               </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="51" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="br1" TitleTxt="Warning" VR_DISP="B">
+                  <AppendToErrorLog val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
@@ -327,7 +335,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="myclass 11"/>
+              <FormName id="311" valUnicode="myclass 1122"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>

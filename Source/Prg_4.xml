@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
-
   <Header>
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
@@ -9,7 +8,6 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
-
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -27,9 +25,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736873" _time="59739" date="28/06/2018" time="16:35:39"/>
+          <LastModified _date="736873" _time="59872" date="28/06/2018" time="16:37:52"/>
         </Header>
-        <ItemIsn val="7"/>
+        <ItemIsn val="8"/>
         <Resource>
           <Columns>
             <Column id="1" name="myclass">
@@ -71,9 +69,9 @@
             <Column id="370147333" name="b1">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="20"/>
+                <Picture id="157" valUnicode="30"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="20"/>
+                <Size id="174" val="30"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -440,5 +438,4 @@
       </Task>
     </Programs>
   </ProgramsRepository>
-
 </Application>

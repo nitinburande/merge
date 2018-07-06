@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
-
   <Header>
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
@@ -9,7 +8,6 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
-
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -27,9 +25,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736882" _time="1834" date="07/07/2018" time="00:30:34"/>
+          <LastModified _date="736882" _time="2075" date="07/07/2018" time="00:34:35"/>
         </Header>
-        <ItemIsn val="11"/>
+        <ItemIsn val="12"/>
         <Resource>
           <Columns>
             <Column id="1" name="myclass">
@@ -68,21 +66,21 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="1048581" name="m1">
-              <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="10"/>
-                <StoredAs id="173" val="1"/>
-                <Size id="174" val="10"/>
-                <_Flip id="194"/>
-              </PropertyList>
-            </Column>
             <Column id="370147334" name="b2">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="3"/>
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="3"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="1048581" name="m1">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="10"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="10"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -405,7 +403,7 @@
                 </STP>
               </LogicLine>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="370147410" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="M4" TitleTxt="Warning" VR_DISP="B">
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="370147410" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="B5" TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
@@ -468,5 +466,4 @@
       </Task>
     </Programs>
   </ProgramsRepository>
-
 </Application>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
@@ -8,6 +9,7 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -25,9 +27,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736878" _time="64918" date="03/07/2018" time="18:01:58"/>
+          <LastModified _date="736882" _time="1834" date="07/07/2018" time="00:30:34"/>
         </Header>
-        <ItemIsn val="10"/>
+        <ItemIsn val="11"/>
         <Resource>
           <Columns>
             <Column id="1" name="myclass">
@@ -402,6 +404,14 @@
                   <Direction val="C"/>
                 </STP>
               </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="370147410" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="M4" TitleTxt="Warning" VR_DISP="B">
+                  <AppendToErrorLog val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
@@ -458,4 +468,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
